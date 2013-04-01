@@ -16,7 +16,9 @@
     "url": "https://github.com/abiee/generator-backbone-amd.git"
   },
   "scripts": {
-    "test": "mocha --reporter spec"
+    "test": "mocha --reporter spec",
+    "preinstall": "npm install https://github.com/abiee/generator-backbone-amd/archive/master.tar.gz"
+
   },
   "dependencies": {
     "yeoman-generator": "~0.10.2",
